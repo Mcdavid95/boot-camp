@@ -1,0 +1,25 @@
+{
+  "name": "boot-camp",
+  "version": "1.0.0",
+  "description": "\"My andela projects\"",
+  "main": "index.js",
+  "dependencies": {
+    "jasmine": "^2.5.3"
+  },
+  "devDependencies": {
+    "jasmine": "^2.5.3"
+  },
+  "scripts": {
+    "test": "jasmine testts/testts.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mcdavid95/boot-camp.git"
+  },
+  "author": "Mcdavid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mcdavid95/boot-camp/issues"
+  },
+  "homepage": "https://github.com/Mcdavid95/boot-camp#readme"
+}
