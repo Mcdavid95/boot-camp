@@ -1,5 +1,4 @@
 'use script'
-module.exports = (function main(){
 function isPrime(n){
 	if(n < 2){
 		return false;
@@ -35,6 +34,7 @@ function getPrimes(x){
 		}
 	}
   }
-  return list
+  return (list)
 }
-}();
+module.exports = {getPrimes};
+
