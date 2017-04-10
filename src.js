@@ -11,7 +11,7 @@ function isPrime(n){
 	}
 
 	let length = Math.sqrt(n) + 1;
-	for(var i = 3; i <= length; i += 2){
+	for(var i = 3; i <= length; i += 2){ //runtime worst case scenerio be O(N) because i = i + 2 to executed "length" number of times
 		if(n % i === 0){
 			return false;
 		}
@@ -28,7 +28,7 @@ function getPrimes(x){
 		return list;
 	}
 	else{
-	for(var i = 0; i <= x; i++){
+	for(var i = 0; i <= x; i++){ // wordt case scenerio of O(N**2) because i iterates over 2 loops to be executed n**2  number of times.
 		if(isPrime(i) === true){
 			list.push(i);
 		}
